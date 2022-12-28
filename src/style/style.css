@@ -104,7 +104,21 @@ background-color: var(--Red);
 .db__card:nth-child(4)::before{
   background-color: var(--Blue);
 }
-
+.gitcode{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: scale 0.5s;
+}
+.gitcode:hover{
+  scale: 1.2;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
 @media  (min-width:700px){
   .db__cards{
     grid-template-columns: repeat(3,1fr);
